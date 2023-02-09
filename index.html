@@ -75,7 +75,7 @@
       <!-- vista principal de balance -->
       <section class="section pt-6">
         <div class="container">
-          <div class="columns is  mt-4">
+          <div class="columns is mt-4">
             <div class="column is-3 has-background-light">
               <div class="box pb-2">
                 <h4 class="title is-3 is-spaced">Balance</h4>
@@ -164,7 +164,55 @@
         </div>
       </section>
       <!-- vista secundaria de balance---Nueva Operacion -->
-      <section></section>
+      <section class="section">
+        <div class="container is-flex is-justify-content-center pt-6">
+        <div class="column is-8 box m-4">
+          <h2 class="title is-2 has-text-weight-bold m-4 pb-6">
+            Nueva Operación
+          </h2>
+          <div class="m-4">
+            <label class="label" for="ipt-operations">Descripción</label>
+            <input class="input" id="ipt-operations" type="text" />
+          </div>
+          <div class="m-4">
+            <label class="label" for="ipt-amount">Monto</label>
+            <input class="input" id="ipt-amount" type="number" value="8" />
+          </div>
+          <div class="m-4">
+            <h4 class="title is-6 has-text-weight-bold mb-2">Tipo</h4>
+            <div class="select is-fullwidth">
+              <select>
+                <option>Gastos</option>
+                <option>Ganancia</option>
+              </select>
+            </div>
+          </div>
+          <div class="m-4">
+            <h4 class="title is-6 has-text-weight-bold mb-2">Categorías</h4>
+            <div class="select is-fullwidth">
+              <select>
+                <option>Comidas</option>
+                <option>Servicios</option>
+                <option>Salidas</option>
+                <option>Educación</option>
+                <option>Transporte</option>
+                <option>Trabajo</option>
+              </select>
+            </div>
+          </div>
+          <div class="m-4">
+            <label class="label" for="ip-date-new">Fecha</label>
+            <input class="input" id="ip-date-new" type="date" />
+          </div>
+          <div class="m-6 is-flex is-justify-content-flex-end">
+            <button class="button is-light">Cancelar</button>
+            <button class="button is-link ml-2">Agregar</button>
+          </div>
+        </div>
+      </div>
+      </section>
+
+
     </main>
   </body>
 </html>
